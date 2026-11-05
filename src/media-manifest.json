@@ -1,0 +1,166 @@
+{
+  "house-white": {
+    "w": 1280,
+    "h": 857
+  },
+  "house-daisies": {
+    "w": 1200,
+    "h": 900
+  },
+  "entrance": {
+    "w": 1280,
+    "h": 857
+  },
+  "daisy-path": {
+    "w": 1280,
+    "h": 857
+  },
+  "gulls": {
+    "w": 1280,
+    "h": 857
+  },
+  "windsurfer": {
+    "w": 1280,
+    "h": 857
+  },
+  "patio-view": {
+    "w": 675,
+    "h": 900
+  },
+  "pergola": {
+    "w": 1280,
+    "h": 857
+  },
+  "guestbook": {
+    "w": 770,
+    "h": 900
+  },
+  "lounge": {
+    "w": 1230,
+    "h": 900
+  },
+  "kitchen-table": {
+    "w": 1200,
+    "h": 900
+  },
+  "hammocks": {
+    "w": 1200,
+    "h": 900
+  },
+  "hammocks-2": {
+    "w": 846,
+    "h": 900
+  },
+  "passage": {
+    "w": 710,
+    "h": 900
+  },
+  "stairs-art": {
+    "w": 750,
+    "h": 900
+  },
+  "stair-down": {
+    "w": 1200,
+    "h": 900
+  },
+  "library": {
+    "w": 1200,
+    "h": 900
+  },
+  "kitchen": {
+    "w": 1200,
+    "h": 900
+  },
+  "bedroom-1": {
+    "w": 1130,
+    "h": 900
+  },
+  "alcove-room": {
+    "w": 548,
+    "h": 288
+  },
+  "bedroom-2": {
+    "w": 548,
+    "h": 290
+  },
+  "bathroom-2": {
+    "w": 548,
+    "h": 284
+  },
+  "bed-detail": {
+    "w": 549,
+    "h": 288
+  },
+  "firepit": {
+    "w": 549,
+    "h": 290
+  },
+  "patio-table": {
+    "w": 549,
+    "h": 284
+  },
+  "embroidery": {
+    "w": 900,
+    "h": 900
+  },
+  "window": {
+    "w": 900,
+    "h": 900
+  },
+  "picnic-table": {
+    "w": 1200,
+    "h": 900
+  },
+  "coast": {
+    "w": 1280,
+    "h": 857
+  },
+  "bathroom": {
+    "w": 675,
+    "h": 900
+  },
+  "kitchenette": {
+    "w": 951,
+    "h": 900
+  },
+  "library-stairs": {
+    "w": 900,
+    "h": 900
+  },
+  "gate": {
+    "w": 1200,
+    "h": 900
+  },
+  "dog-flowers": {
+    "w": 900,
+    "h": 900
+  },
+  "fynbos-sea": {
+    "w": 1280,
+    "h": 857
+  },
+  "dog-daisies": {
+    "w": 1280,
+    "h": 857
+  },
+  "rocks": {
+    "w": 900,
+    "h": 900
+  },
+  "aerial": {
+    "w": 1280,
+    "h": 853
+  },
+  "reading-chair": {
+    "w": 1200,
+    "h": 900
+  },
+  "kitchen-shelves": {
+    "w": 1200,
+    "h": 900
+  },
+  "collage": {
+    "w": 800,
+    "h": 600
+  }
+}
