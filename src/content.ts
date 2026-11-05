@@ -20,7 +20,6 @@ export const site = {
   maps: 'https://www.google.com/maps/search/?api=1&query=10+Kriedoring+Street+Bekbaai+Paternoster+7381',
   /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
   book: 'https://book.nightsbridge.com/17491',
-  booking: 'https://www.booking.com/hotel/za/stay-at-emily-amp-bokkoms-in-paternoster-paternoster.html',
   facebook: 'https://www.facebook.com/StayatBokkomsinPaternoster/',
 };
 

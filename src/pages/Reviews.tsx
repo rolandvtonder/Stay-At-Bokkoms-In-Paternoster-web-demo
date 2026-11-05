@@ -3,7 +3,7 @@ import {BookBand} from '../components/BookBand';
 import {Icon} from '../components/Icon';
 import {Img} from '../components/Img';
 import {Eyebrow, Lines} from '../components/Lines';
-import {reviews, site} from '../content';
+import {reviews} from '../content';
 import {useReveals} from '../hooks/useReveals';
 
 export default function Reviews() {
@@ -80,9 +80,6 @@ function Quotes() {
             </li>
           ))}
         </ul>
-        <a href={site.booking} target="_blank" rel="noopener" className="caps mt-6 inline-flex min-h-12 items-center gap-3 border border-ink/40 px-6 py-3 transition-colors hover:bg-ink hover:text-paper">
-          Read all 91 reviews on Booking.com <Icon name="arrowUpRight" className="size-4" />
-        </a>
       </div>
     </section>
   );
