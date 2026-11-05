@@ -19,7 +19,7 @@ export default function Stay() {
       <GoodToKnow />
       <BookBand
         title={[{t: 'Two rooms,'}, {t: 'one sea breeze.', i: true}]}
-        text="Sleeps four in two en-suite bedrooms. Message us on WhatsApp to check your dates, or reserve through Booking.com."
+        text="Sleeps four in two en-suite bedrooms. Check live availability and book directly with us online."
       />
     </>
   );

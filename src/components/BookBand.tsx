@@ -17,21 +17,21 @@ export function BookBand({title = defaultTitle, text}: {title?: Line[]; text?: s
         </h2>
         <div data-reveal style={{'--d': '0.15s'} as CSSProperties} className="md:col-span-5">
           <p className="copy max-w-[46ch] text-paper/90">
-            {text ?? 'Message us on WhatsApp to check dates and book directly, or reserve online through Booking.com.'}
+            {text ?? 'Check live availability and book directly with us online, or message us on WhatsApp with any questions.'}
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href={site.whatsapp} target="_blank" rel="noopener" className="caps inline-flex min-h-12 items-center gap-3 bg-daisy px-7 py-3 text-ink transition-colors hover:bg-paper">
-              <Icon name="chat" className="size-4" />
-              WhatsApp us
+            <a href={site.book} target="_blank" rel="noopener" className="caps inline-flex min-h-12 items-center gap-3 bg-daisy px-7 py-3 text-ink transition-colors hover:bg-paper">
+              <Icon name="calendar" className="size-4" />
+              Book now
             </a>
             <a
-              href={site.booking}
+              href={site.whatsapp}
               target="_blank"
               rel="noopener"
               className="caps inline-flex min-h-12 items-center gap-3 border border-paper/60 px-7 py-3 transition-colors hover:border-paper hover:bg-paper hover:text-ink"
             >
-              Booking.com
-              <Icon name="arrowUpRight" className="size-4" />
+              <Icon name="chat" className="size-4" />
+              WhatsApp us
             </a>
           </div>
         </div>

@@ -45,27 +45,18 @@ export function MenuButton({open, onToggle}: {open: boolean; onToggle: () => voi
   );
 }
 
-export function BookCta({page, menuOpen}: {page: PageId; menuOpen: boolean}) {
-  // On the booking page itself the box becomes a direct line to WhatsApp.
-  const onContact = page === 'contact';
+export function BookCta({menuOpen}: {page: PageId; menuOpen: boolean}) {
+  // Straight to the direct booking engine, in a new tab so the site stays open.
   return (
     <a
-      href={onContact ? site.whatsapp : to('contact.html')}
-      target={onContact ? '_blank' : undefined}
-      rel={onContact ? 'noopener' : undefined}
+      href={site.book}
+      target="_blank"
+      rel="noopener"
       className={`caps fixed right-4 bottom-4 z-[55] px-7 py-4 shadow-[0_10px_40px_rgb(14_26_34/0.25)] transition-colors duration-500 md:right-8 md:bottom-6 md:px-8 ${
         menuOpen ? 'bg-sky text-ink' : 'bg-daisy text-ink hover:bg-paper'
       }`}
     >
-      {onContact ? (
-        <>
-          WhatsApp <em className="normal-case">us</em>
-        </>
-      ) : (
-        <>
-          Book your <em className="normal-case">stay</em>
-        </>
-      )}
+      Book your <em className="normal-case">stay</em>
     </a>
   );
 }

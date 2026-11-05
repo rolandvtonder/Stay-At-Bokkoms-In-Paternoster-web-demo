@@ -18,6 +18,8 @@ export const site = {
   email: 'stayatbokkomsinpaternoster@yahoo.co.za',
   address: ['10 Kriedoring Street', 'Bekbaai, Paternoster', 'Western Cape, 7381'],
   maps: 'https://www.google.com/maps/search/?api=1&query=10+Kriedoring+Street+Bekbaai+Paternoster+7381',
+  /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
+  book: 'https://book.nightsbridge.com/17491',
   booking: 'https://www.booking.com/hotel/za/stay-at-emily-amp-bokkoms-in-paternoster-paternoster.html',
   facebook: 'https://www.facebook.com/StayatBokkomsinPaternoster/',
 };
@@ -35,7 +37,7 @@ export const pages: {id: PageId; href: string; label: string}[] = [
 export const socials = [
   {label: 'Facebook', href: site.facebook},
   {label: 'WhatsApp', href: site.whatsapp},
-  {label: 'Booking.com', href: site.booking},
+  {label: 'Book online', href: site.book},
 ];
 
 /* ------------------------------------------------------------------ Home */
@@ -166,7 +168,7 @@ export const stay = {
 export type IconName =
   | 'wifi' | 'car' | 'zap' | 'flame' | 'utensils' | 'bath' | 'bed' | 'tv' | 'laptop' | 'waves'
   | 'leaf' | 'paw' | 'bike' | 'sparkle' | 'key' | 'smokeOff' | 'phone' | 'mail' | 'pin'
-  | 'chat' | 'arrowRight' | 'arrowLeft' | 'arrowUpRight' | 'close' | 'clock' | 'star';
+  | 'chat' | 'arrowRight' | 'arrowLeft' | 'arrowUpRight' | 'close' | 'clock' | 'star' | 'calendar';
 
 /* --------------------------------------------------------------- Gallery */
 
@@ -314,6 +316,6 @@ export const contact = {
     alt: 'Bokkoms seen from above, among the white houses of Paternoster with the sea beyond',
     eyebrow: '06 — Book & Contact',
     lines: [{t: 'Come and'}, {t: 'stay a while.', i: true}] as Line[],
-    body: 'Book directly with us on WhatsApp, or reserve through Booking.com. Either way, we’ll be here to welcome you.',
+    body: 'Check dates and book directly with us online, or send us a WhatsApp. Either way, we’ll be here to welcome you.',
   },
 };

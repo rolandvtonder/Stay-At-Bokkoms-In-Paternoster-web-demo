@@ -18,31 +18,31 @@ export default function Contact() {
   );
 }
 
-/** The three ways to book, WhatsApp first. */
+/** The three ways to book, direct online booking first. */
 function Ways() {
   const ref = useReveals<HTMLElement>();
   const card = 'group flex min-h-[260px] flex-col justify-between p-8 transition-colors md:p-10';
   return (
     <section ref={ref} aria-label="Ways to book" className="bg-paper px-5 py-20 text-ink md:px-14 md:py-28">
       <div className="mx-auto grid max-w-[1680px] gap-4 md:grid-cols-3">
-        <a data-reveal href={site.whatsapp} target="_blank" rel="noopener" className={`${card} bg-cobalt text-paper hover:bg-ink`}>
-          <Icon name="chat" className="size-8 text-daisy" />
+        <a data-reveal href={site.book} target="_blank" rel="noopener" className={`${card} bg-cobalt text-paper hover:bg-ink`}>
+          <Icon name="calendar" className="size-8 text-daisy" />
           <div>
-            <p className="caps text-paper/80">Fastest · book direct</p>
+            <p className="caps text-paper/80">Book direct with us</p>
+            <p className="display mt-2 text-[clamp(36px,3.2vw,52px)]">
+              Book <span className="it">online</span>
+            </p>
+            <p className="copy mt-2 text-paper/85">See live availability and prices.</p>
+          </div>
+        </a>
+        <a data-reveal style={{'--d': '0.08s'} as CSSProperties} href={site.whatsapp} target="_blank" rel="noopener" className={`${card} bg-shell hover:bg-sky`}>
+          <Icon name="chat" className="size-8 text-cobalt" />
+          <div>
+            <p className="caps text-ink/70">Questions · special requests</p>
             <p className="display mt-2 text-[clamp(36px,3.2vw,52px)]">
               WhatsApp <span className="it">us</span>
             </p>
-            <p className="copy mt-2 text-paper/85">{site.phone}</p>
-          </div>
-        </a>
-        <a data-reveal style={{'--d': '0.08s'} as CSSProperties} href={site.booking} target="_blank" rel="noopener" className={`${card} bg-shell hover:bg-sky`}>
-          <Icon name="arrowUpRight" className="size-8 text-cobalt" />
-          <div>
-            <p className="caps text-ink/70">Instant booking · 9.3 rated</p>
-            <p className="display mt-2 text-[clamp(36px,3.2vw,52px)]">
-              Booking<span className="it">.com</span>
-            </p>
-            <p className="copy mt-2 text-ink/80">See live availability and prices.</p>
+            <p className="copy mt-2 text-ink/80">{site.phone}</p>
           </div>
         </a>
         <div data-reveal style={{'--d': '0.16s'} as CSSProperties} className={`${card} bg-shell`}>
