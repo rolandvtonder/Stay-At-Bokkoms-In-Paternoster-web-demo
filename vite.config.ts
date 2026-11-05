@@ -8,6 +8,9 @@ import {defineConfig} from 'vite';
 const page = (f: string) => fileURLToPath(new URL(f, import.meta.url));
 
 export default defineConfig({
+  // GitHub Pages serves the site from /<repo-name>/; the deploy workflow sets
+  // BASE_PATH to that. Locally and on other hosts it stays at the root.
+  base: process.env.BASE_PATH || '/',
   plugins: [react(), tailwindcss()],
   build: {
     target: 'es2020',
