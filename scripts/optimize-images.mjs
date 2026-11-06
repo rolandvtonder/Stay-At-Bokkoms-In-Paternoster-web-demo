@@ -62,6 +62,10 @@ const MAP = {
   'reading-chair': 'booking/285251434.jpg',
   'kitchen-shelves': 'booking/285251881.jpg',
   collage: 'facebook/cover.jpg',
+  // Sent by the hosts in November 2026 for the three home-page panels.
+  'panel-stay': 'client/stay.jpg',
+  'panel-village': 'client/village.jpg',
+  'panel-beach': 'client/beach.jpg',
 };
 
 fs.mkdirSync(OUT, {recursive: true});

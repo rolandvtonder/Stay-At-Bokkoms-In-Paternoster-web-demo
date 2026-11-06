@@ -52,13 +52,12 @@ export const home = {
     lines: [{t: 'Salt air,'}, {t: 'white walls.', i: true}, {t: 'Slow days on the'}, {t: 'West Coast', i: true}] as Line[],
     body: 'A two-bedroom self-catering guest flat in Paternoster — four minutes on foot to Bekbaai Beach, with a private patio and hosts who live just upstairs.',
   },
+  /** Each panel has its own photo, so the three read as three different things. */
   panels: {
-    image: 'coast' as MediaName,
-    alt: 'Fynbos and wild flowers running down to the Atlantic coastline near Paternoster',
     items: [
-      {id: 'stay', title: ['The', 'Stay'], specs: [['Bedrooms', '2 en-suite'], ['Sleeps', '4 guests']], href: 'stay.html', tint: '#1f4f8f'},
-      {id: 'village', title: ['The', 'Village'], specs: [['Bekbaai Beach', '300 m'], ['Cape Columbine', '3.7 km']], href: 'explore.html', tint: '#4d6a3c'},
-      {id: 'guests', title: ['Our', 'Guests'], specs: [['Booking.com', '9.3 / 10'], ['Reviews', '91']], href: 'reviews.html', tint: '#9a5b34'},
+      {id: 'stay', image: 'panel-stay' as MediaName, pos: '58% 50%', alt: 'White thatched cottages above a path through spring daisies', title: ['The', 'Stay'], specs: [['Bedrooms', '2 en-suite'], ['Sleeps', '4 guests']], href: 'stay.html', tint: '#1f4f8f'},
+      {id: 'village', image: 'panel-village' as MediaName, pos: '62% 50%', alt: 'The white houses of Paternoster above a rocky bay', title: ['The', 'Village'], specs: [['Bekbaai Beach', '300 m'], ['Cape Columbine', '3.7 km']], href: 'explore.html', tint: '#4d6a3c'},
+      {id: 'guests', image: 'panel-beach' as MediaName, pos: '68% 50%', alt: 'A calm beach at Paternoster with granite rocks in the morning mist', title: ['Our', 'Guests'], specs: [['Booking.com', '9.3 / 10'], ['Reviews', '91']], href: 'reviews.html', tint: '#9a5b34'},
     ],
   },
   intro: {
@@ -184,6 +183,9 @@ export const gallery = {
   ] as const,
   shots: [
     {name: 'house-white', alt: 'The white gables of Bokkoms against a blue sky', tag: 'outside'},
+    {name: 'panel-village', alt: 'The white houses of Paternoster above a rocky bay', tag: 'village'},
+    {name: 'panel-stay', alt: 'White thatched cottages above a path through spring daisies', tag: 'village'},
+    {name: 'panel-beach', alt: 'A calm beach with granite rocks in the morning mist', tag: 'village'},
     {name: 'bedroom-1', alt: 'Bedroom one with a double bed and desk', tag: 'inside'},
     {name: 'hammocks', alt: 'Hammocks and a table on the patio under the pergola', tag: 'outside'},
     {name: 'lounge', alt: 'The lounge with wicker sofa and colourful paintings', tag: 'inside'},
@@ -278,6 +280,7 @@ export const reviews = {
     ['Free Wi-Fi', 8.3],
   ] as [string, number][],
   quotes: [
+    {text: 'If you need to visit a space where home, rest and heaven-on-earth meet, please book a Stay at Bokkoms! Paternoster is beautiful, but this home is a home where the beauty meets you on the inside. The Roon Family are amazing people, and Amanda is an incredible host. We also loved that animals (of all shapes and sizes) were welcome.', by: 'Anina', from: 'Google review'},
     {text: 'Amanda is a great host. She has had the property for years, and has it very well equipped. It is extremely spacious, especially for the price. There is a pleasant place to sit outside.', by: 'Colin', from: 'Canada'},
     {text: 'Stunning place, stunning location. Beautiful short walk to the beach in a very quiet area. Only the birds and waves to be heard! Pet friendly stay was an added bonus.', by: 'Mj', from: 'South Africa'},
     {text: 'Comfortable and spacious with everything needed to make our stay a stay to remember.', by: 'Fantie', from: 'South Africa'},

@@ -21,14 +21,13 @@ export default function Home() {
 }
 
 /**
- * Three tall panels slide in from the right one after another, each showing
- * its own third of ONE photo of the coast — so together they read as a single
- * picture. Each panel opens a page: the stay, the village, the guests.
+ * Three tall panels slide in from the right one after another, each with its
+ * own photo. Each panel opens a page: the stay, the village, the guests.
  */
 function Panels() {
   const root = useRef<HTMLElement>(null);
   const [shown, setShown] = useState(false);
-  const {image, alt, items} = home.panels;
+  const {items} = home.panels;
 
   useEffect(() => {
     const el = root.current!;
@@ -60,12 +59,9 @@ function Panels() {
             }`}
             style={{transitionDelay: `${0.12 + i * 0.16}s`, background: b.tint} as CSSProperties}
           >
-            {/* One slice of the shared photo: three panels (and two 3px gaps) wide, shifted per panel. */}
-            <div className="absolute top-0 h-full" style={{width: 'calc(300% + 6px)', left: `calc(${-100 * i}% - ${3 * i}px)`}}>
-              <Img name={image} alt={i === 0 ? alt : ''} sizes="100vw" className="kb-single h-full w-full object-cover object-[50%_30%]" />
-            </div>
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgb(14_26_34/0.6),transparent_40%,rgb(14_26_34/0.5))] transition-colors duration-700 group-hover:bg-ink/25" />
-            <div className="relative flex h-full flex-col justify-between p-7 pt-28 md:p-9 md:pt-32">
+            <Img name={b.image} alt={b.alt} sizes="(max-width: 767px) 100vw, 34vw" className="kb-single absolute inset-0 h-full w-full object-cover" style={{objectPosition: b.pos}} />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgb(14_26_34/0.65),rgb(14_26_34/0.15)_50%,rgb(14_26_34/0.5))] transition-colors duration-700 group-hover:bg-ink/25" />
+            <div className="relative flex h-full flex-col justify-between p-7 pt-28 [text-shadow:0_1px_14px_rgb(14_26_34/0.85),0_0_2px_rgb(14_26_34/0.5)] md:p-9 md:pt-32">
               <div>
                 <h3 className="display text-[clamp(38px,3.6vw,64px)] text-paper">
                   <span className="block">{b.title[0]}</span>
