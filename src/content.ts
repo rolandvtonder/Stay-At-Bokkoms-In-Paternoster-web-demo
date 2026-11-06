@@ -21,6 +21,7 @@ export const site = {
   /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
   book: 'https://book.nightsbridge.com/17491',
   facebook: 'https://www.facebook.com/StayatBokkomsinPaternoster/',
+  instagram: 'https://www.instagram.com/stayatbokkomsinpaternoster/',
   credit: {label: 'Roland Web Design', href: 'https://rolandwebdesign.co.za'},
 };
 
@@ -36,6 +37,7 @@ export const pages: {id: PageId; href: string; label: string}[] = [
 
 export const socials = [
   {label: 'Facebook', href: site.facebook},
+  {label: 'Instagram', href: site.instagram},
   {label: 'WhatsApp', href: site.whatsapp},
   {label: 'Book online', href: site.book},
 ];
