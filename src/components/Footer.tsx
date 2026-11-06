@@ -73,9 +73,15 @@ export function Footer() {
         </span>
       </div>
 
-      <p className="caps mx-auto mt-6 max-w-[1680px] text-paper/60">
-        © {new Date().getFullYear()} {site.name} in {site.place} · Self-catering guest flat · West Coast, South Africa
-      </p>
+      <div className="caps mx-auto mt-6 flex max-w-[1680px] flex-wrap justify-between gap-x-8 gap-y-3 text-paper/60">
+        <p>© {new Date().getFullYear()} {site.name} in {site.place} · Self-catering guest flat · West Coast, South Africa</p>
+        <p>
+          Website by{' '}
+          <a href={site.credit.href} target="_blank" rel="noopener" className="draw text-paper/85 hover:text-paper">
+            {site.credit.label}
+          </a>
+        </p>
+      </div>
     </footer>
   );
 }

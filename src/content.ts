@@ -21,6 +21,7 @@ export const site = {
   /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
   book: 'https://book.nightsbridge.com/17491',
   facebook: 'https://www.facebook.com/StayatBokkomsinPaternoster/',
+  credit: {label: 'Roland Web Design', href: 'https://rolandwebdesign.co.za'},
 };
 
 /** The pages, in menu order. `href` is relative to the site root. */
