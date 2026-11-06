@@ -20,6 +20,7 @@ export const site = {
   maps: 'https://www.google.com/maps/search/?api=1&query=10+Kriedoring+Street+Bekbaai+Paternoster+7381',
   /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
   book: 'https://book.nightsbridge.com/17491',
+  /** Not linked for now, at the hosts' request (they can't access the page). Add it back to `socials` to re-link. */
   facebook: 'https://www.facebook.com/StayatBokkomsinPaternoster/',
   instagram: 'https://www.instagram.com/stayatbokkomsinpaternoster/',
   credit: {label: 'Roland Web Design', href: 'https://rolandwebdesign.co.za'},
@@ -36,7 +37,6 @@ export const pages: {id: PageId; href: string; label: string}[] = [
 ];
 
 export const socials = [
-  {label: 'Facebook', href: site.facebook},
   {label: 'Instagram', href: site.instagram},
   {label: 'WhatsApp', href: site.whatsapp},
   {label: 'Book online', href: site.book},
@@ -66,7 +66,7 @@ export const home = {
   intro: {
     eyebrow: 'Welcome to Bokkoms',
     title: [{t: 'A home on'}, {t: 'three levels', i: true}] as Line[],
-    lede: 'Alvin, an architect, designed Bokkoms on three levels. Your guest flat is the whole ground floor — its own lounge, kitchen and two en-suite bedrooms, opening onto a patio with a braai, hammocks and part sea views.',
+    lede: 'Alvin, an architect, designed Bokkoms on three levels. Your guest flat is the whole lower level, 15 steps down from the front door — its own lounge, kitchen and two en-suite bedrooms, opening onto a patio with a braai, hammocks and part sea views.',
     body: 'We live and work upstairs, so we are close by for advice or a hand whenever you need it, and out of the way when you don’t. Bring the dog, too: pets are welcome by prior arrangement.',
   },
   stats: [
@@ -92,7 +92,7 @@ export const stay = {
     image: 'lounge' as MediaName,
     alt: 'The guest lounge with a wicker sofa, wooden floors and colourful art on whitewashed walls',
     eyebrow: '02 — The Stay',
-    lines: [{t: 'Your own'}, {t: 'ground floor', i: true}, {t: 'by the sea.'}] as Line[],
+    lines: [{t: 'Your home'}, {t: 'away from home', i: true}, {t: 'in Paternoster.'}] as Line[],
     body: 'Two en-suite bedrooms, a lounge and kitchen of your own, and a private patio with a braai and hammocks.',
   },
   facts: [
@@ -160,7 +160,7 @@ export const stay = {
     ['Smoking & parties', 'No smoking indoors, and no parties or events.'],
   ] as [string, string][],
   notes: [
-    'We live in the floors above. The flat shares a front entrance with our home, and a flight of stairs leads down from the front door to your lounge.',
+    'We live in the floors above. The flat shares a front entrance with our home, and 15 steps lead down from the front door to your lounge, so the flat is not suitable for wheelchairs.',
     'Bokkoms has back-up power, so load-shedding won’t leave you in the dark.',
     'The West Coast is water-wise country — please help us use water sparingly.',
   ],
@@ -189,6 +189,7 @@ export const gallery = {
     {name: 'panel-village', alt: 'The white houses of Paternoster above a rocky bay', tag: 'village'},
     {name: 'panel-stay', alt: 'White thatched cottages above a path through spring daisies', tag: 'village'},
     {name: 'panel-beach', alt: 'A calm beach with granite rocks in the morning mist', tag: 'village'},
+    {name: 'art-shed', alt: 'Inside The Art Shed gallery in Paternoster', tag: 'village'},
     {name: 'bedroom-1', alt: 'Bedroom one with a double bed and desk', tag: 'inside'},
     {name: 'hammocks', alt: 'Hammocks and a table on the patio under the pergola', tag: 'outside'},
     {name: 'lounge', alt: 'The lounge with wicker sofa and colourful paintings', tag: 'inside'},
@@ -257,7 +258,7 @@ export const explore = {
     {name: 'windsurfer' as MediaName, alt: 'A windsurfer in the surf off Paternoster', title: 'Catch the wind', text: 'The steady West Coast wind makes Paternoster a favourite with windsurfers and kiters.'},
     {name: 'daisy-path' as MediaName, alt: 'White spring daisies in flower', title: 'Spring flowers', text: 'From late winter into spring the veld around the village turns white, orange and gold with wild flowers.'},
     {name: 'rocks' as MediaName, alt: 'Boulders in clear rock-pool water', title: 'Rock pools & photographs', text: 'Clear water, smooth granite and long golden evenings — a gift for photographers.'},
-    {name: 'house-daisies' as MediaName, alt: 'Whitewashed cottages above the flowers', title: 'Village life', text: 'Wander the white lanes, buy fish off the boats, browse the galleries and stop for coffee.'},
+    {name: 'art-shed' as MediaName, pos: '68% 50%', alt: 'Paintings, ceramics and crafts on show inside The Art Shed gallery in Paternoster', title: 'The Art Shed', text: 'Browse The Art Shed, the Paternoster gallery where Wilko Roon’s work is on show — then wander the white lanes and stop for coffee.'},
   ],
   getting: {
     title: [{t: 'Getting'}, {t: 'here', i: true}] as Line[],

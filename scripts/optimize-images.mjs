@@ -66,6 +66,7 @@ const MAP = {
   'panel-stay': 'client/stay.jpg',
   'panel-village': 'client/village.jpg',
   'panel-beach': 'client/beach.jpg',
+  'art-shed': 'client/art-shed.jpeg',
 };
 
 fs.mkdirSync(OUT, {recursive: true});

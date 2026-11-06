@@ -89,7 +89,7 @@ function Things() {
           {explore.things.map((t, i) => (
             <li key={t.title} data-reveal style={{'--d': `${(i % 3) * 0.08}s`} as CSSProperties} className={i % 3 === 1 ? 'lg:mt-20' : ''}>
               <div className="overflow-hidden">
-                <Img name={t.name} alt={t.alt} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="aspect-[4/5] w-full object-cover" />
+                <Img name={t.name} alt={t.alt} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="aspect-[4/5] w-full object-cover" style={{objectPosition: t.pos}} />
               </div>
               <h3 className="display mt-5 text-[34px]">{t.title}</h3>
               <p className="copy mt-2 max-w-[42ch] text-ink/80">{t.text}</p>
