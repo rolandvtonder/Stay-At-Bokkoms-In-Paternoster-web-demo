@@ -80,7 +80,7 @@ function Amenities() {
             <span className="it block">you’ll need</span>
           </h2>
           <p data-reveal className="copy max-w-[48ch] text-paper/80 md:col-span-4 md:col-start-9">
-            Linen, towels and toiletries are provided, the kitchen is stocked with the basics, and the Wi-Fi is free.
+            Linen and towels are provided, the kitchen is stocked with the basics, and the Wi-Fi is free.
           </p>
         </div>
         <ul className="mt-14 grid grid-cols-1 gap-px bg-paper/15 min-[420px]:grid-cols-2 md:grid-cols-4">
