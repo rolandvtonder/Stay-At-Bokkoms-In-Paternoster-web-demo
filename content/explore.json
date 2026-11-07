@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "image": "/media/photos/fynbos-sea.jpg",
+    "alt": "Yellow wild flowers and fynbos running down to the Atlantic near Paternoster",
+    "eyebrow": "04 — Paternoster",
+    "lines": "A whitewashed\n*fishing village*\non the\n*Atlantic*",
+    "body": "White cottages, fishing boats on the beach, protected coast and some of the best food on the West Coast — all a short walk from the door."
+  },
+  "intro": {
+    "title": "Whitewashed\n*and wind-swept*",
+    "lede": "Paternoster is one of the oldest fishing villages on South Africa’s West Coast. Its white houses will remind you of a Greek island; its beaches, rocks and fynbos are pure Atlantic.",
+    "body": "Bokkoms sits in Bekbaai, a quiet corner of the village where the loudest things are the birds and the waves. Walk to the beach, walk to dinner, and leave the car in the drive."
+  },
+  "nearby": [
+    {
+      "group": "Beaches",
+      "items": [
+        {
+          "label": "Bekbaai Beach",
+          "value": "300 m"
+        },
+        {
+          "label": "Paternoster Main Beach",
+          "value": "650 m"
+        }
+      ]
+    },
+    {
+      "group": "Eat",
+      "items": [
+        {
+          "label": "De See Kat",
+          "value": "300 m"
+        },
+        {
+          "label": "Gaaitjie",
+          "value": "600 m"
+        },
+        {
+          "label": "Wolfgat",
+          "value": "600 m"
+        }
+      ]
+    },
+    {
+      "group": "Nature & sights",
+      "items": [
+        {
+          "label": "Cape Columbine Nature Reserve",
+          "value": "3.7 km"
+        },
+        {
+          "label": "Paternoster Rock Island Reserve",
+          "value": "11 km"
+        },
+        {
+          "label": "Vasco da Gama Monument, St Helena Bay",
+          "value": "15 km"
+        }
+      ]
+    }
+  ],
+  "things": [
+    {
+      "image": "/media/photos/coast.jpg",
+      "pos": "",
+      "alt": "The coastal path through fynbos above the sea",
+      "title": "Walk the coast",
+      "text": "Follow the shoreline into Cape Columbine Nature Reserve, with its lighthouse, granite outcrops and hidden coves."
+    },
+    {
+      "image": "/media/photos/gulls.jpg",
+      "pos": "",
+      "alt": "Gulls landing on the rocks",
+      "title": "Watch the birds",
+      "text": "Gulls, cormorants and oystercatchers work the rocks and the tideline. Bring binoculars."
+    },
+    {
+      "image": "/media/photos/windsurfer.jpg",
+      "pos": "",
+      "alt": "A windsurfer in the surf off Paternoster",
+      "title": "Catch the wind",
+      "text": "The steady West Coast wind makes Paternoster a favourite with windsurfers and kiters."
+    },
+    {
+      "image": "/media/photos/daisy-path.jpg",
+      "pos": "",
+      "alt": "White spring daisies in flower",
+      "title": "Spring flowers",
+      "text": "From late winter into spring the veld around the village turns white, orange and gold with wild flowers."
+    },
+    {
+      "image": "/media/photos/rocks.jpg",
+      "pos": "",
+      "alt": "Boulders in clear rock-pool water",
+      "title": "Rock pools & photographs",
+      "text": "Clear water, smooth granite and long golden evenings — a gift for photographers."
+    },
+    {
+      "image": "/media/photos/art-shed.jpg",
+      "pos": "68% 50%",
+      "alt": "Paintings, ceramics and crafts on show inside The Art Shed gallery in Paternoster",
+      "title": "The Art Shed",
+      "text": "Browse The Art Shed, the Paternoster gallery where Wilko Roon’s work is on show — then wander the white lanes and stop for coffee."
+    }
+  ],
+  "getting": {
+    "title": "Getting\n*here*",
+    "text": "Paternoster is about 150 km north of Cape Town — roughly two hours by car along the R27 West Coast road, turning off through Vredenburg. Free private parking waits at the door."
+  }
+}

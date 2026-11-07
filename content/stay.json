@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "image": "/media/photos/lounge.jpg",
+    "alt": "The guest lounge with a wicker sofa, wooden floors and colourful art on whitewashed walls",
+    "eyebrow": "02 — The Stay",
+    "lines": "Your home\n*away from home*\nin Paternoster.",
+    "body": "Two en-suite bedrooms, a lounge and kitchen of your own, and a private patio with a braai and hammocks."
+  },
+  "facts": [
+    {
+      "label": "Sleeps",
+      "value": "4 guests"
+    },
+    {
+      "label": "Bedrooms",
+      "value": "1 double, 1 twin"
+    },
+    {
+      "label": "Bathrooms",
+      "value": "2 en-suite"
+    },
+    {
+      "label": "Kitchen",
+      "value": "Fully equipped"
+    },
+    {
+      "label": "Wi-Fi",
+      "value": "Free"
+    },
+    {
+      "label": "Parking",
+      "value": "Free, on site"
+    }
+  ],
+  "rooms": [
+    {
+      "image": "/media/photos/bedroom-1.jpg",
+      "alt": "Bedroom one: a double bed on wooden floors, with a desk and an arched alcove",
+      "kicker": "Bedroom one",
+      "title": "Double bed,\n*own bathroom*",
+      "text": "A full-size double bed made up with good linen, its own en-suite bathroom, an internet TV and a table to work at. Patio doors open straight onto the garden."
+    },
+    {
+      "image": "/media/photos/bedroom-2.jpg",
+      "alt": "Bedroom two: two single beds with patterned covers and a window to the garden",
+      "kicker": "Bedroom two",
+      "title": "Two singles,\n*garden doors*",
+      "text": "Two single beds, an en-suite bathroom, internet TV and a work table — with its own door out to the patio, so early risers can slip out to the sea."
+    },
+    {
+      "image": "/media/photos/kitchen.jpg",
+      "alt": "The guest kitchen with wooden counters, open shelves and a dining table",
+      "kicker": "Lounge & kitchen",
+      "title": "The\n*kitchen*",
+      "text": "A private lounge and dining area, and a fully equipped kitchen: fridge, microwave, kettle, hob, toaster, crockery and cleaning materials — everything for slow breakfasts and long, lazy suppers."
+    },
+    {
+      "image": "/media/photos/hammocks-2.jpg",
+      "alt": "The private patio with a wooden table, hammocks and the garden beyond",
+      "kicker": "Patio & braai",
+      "title": "Outside is\n*the best room*",
+      "text": "Your private patio has a braai, a fire bowl, an outdoor table, hammocks under the pergola, a garden and part sea views over the fynbos."
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "wifi",
+      "label": "Free Wi-Fi"
+    },
+    {
+      "icon": "car",
+      "label": "Free private parking"
+    },
+    {
+      "icon": "zap",
+      "label": "Back-up power"
+    },
+    {
+      "icon": "flame",
+      "label": "Braai & fire bowl"
+    },
+    {
+      "icon": "utensils",
+      "label": "Equipped kitchen"
+    },
+    {
+      "icon": "bath",
+      "label": "Two en-suite bathrooms"
+    },
+    {
+      "icon": "bed",
+      "label": "Linen & towels"
+    },
+    {
+      "icon": "tv",
+      "label": "Internet TV in each room"
+    },
+    {
+      "icon": "laptop",
+      "label": "Work tables"
+    },
+    {
+      "icon": "waves",
+      "label": "Part sea views"
+    },
+    {
+      "icon": "leaf",
+      "label": "Garden & patio"
+    },
+    {
+      "icon": "paw",
+      "label": "Pets on request"
+    },
+    {
+      "icon": "pin",
+      "label": "Bekbaai Beach 300 m away"
+    },
+    {
+      "icon": "chat",
+      "label": "Hosts live upstairs"
+    },
+    {
+      "icon": "key",
+      "label": "Private check-in"
+    },
+    {
+      "icon": "smokeOff",
+      "label": "Non-smoking"
+    }
+  ],
+  "rules": [
+    {
+      "label": "Check-in",
+      "value": "14:00 – 19:00. Please let us know your arrival time in advance."
+    },
+    {
+      "label": "Check-out",
+      "value": "09:00 – 10:00."
+    },
+    {
+      "label": "Pets",
+      "value": "Welcome by prior arrangement, at no extra charge."
+    },
+    {
+      "label": "Children",
+      "value": "All ages welcome. We don’t have cots or extra beds."
+    },
+    {
+      "label": "Check-in age",
+      "value": "The person checking in must be 18 or older."
+    },
+    {
+      "label": "Smoking & parties",
+      "value": "No smoking indoors, and no parties or events."
+    }
+  ],
+  "notes": [
+    "We live in the floors above. The flat shares a front entrance with our home, and 15 steps lead down from the front door to your lounge, so the flat is not suitable for wheelchairs.",
+    "Bokkoms has back-up power, so load-shedding won’t leave you in the dark.",
+    "The West Coast is water-wise country — please help us use water sparingly."
+  ]
+}

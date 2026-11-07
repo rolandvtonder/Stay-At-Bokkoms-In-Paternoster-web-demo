@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "/media/photos/house-white.jpg",
+        "alt": "The whitewashed gables of Bokkoms against a deep blue West Coast sky"
+      },
+      {
+        "image": "/media/photos/house-daisies.jpg",
+        "alt": "Bokkoms and neighbouring thatched cottages above a field of spring daisies"
+      },
+      {
+        "image": "/media/photos/gulls.jpg",
+        "alt": "Gulls landing on the granite rocks at the edge of the Atlantic"
+      },
+      {
+        "image": "/media/photos/daisy-path.jpg",
+        "alt": "A sandy path through white spring daisies towards the sea"
+      }
+    ],
+    "lines": "Salt air,\n*white walls.*\nSlow days on the\n*West Coast*",
+    "body": "A two-bedroom self-catering guest flat in Paternoster — four minutes on foot to Bekbaai Beach, with a private patio and hosts who live just upstairs."
+  },
+  "panels": [
+    {
+      "id": "stay",
+      "image": "/media/photos/panel-stay.jpg",
+      "pos": "58% 50%",
+      "alt": "White thatched cottages above a path through spring daisies",
+      "title": "The\nStay",
+      "specs": [
+        {
+          "label": "Bedrooms",
+          "value": "2 en-suite"
+        },
+        {
+          "label": "Sleeps",
+          "value": "4 guests"
+        }
+      ],
+      "href": "stay.html",
+      "tint": "#1f4f8f"
+    },
+    {
+      "id": "village",
+      "image": "/media/photos/panel-village.jpg",
+      "pos": "62% 50%",
+      "alt": "The white houses of Paternoster above a rocky bay",
+      "title": "The\nVillage",
+      "specs": [
+        {
+          "label": "Bekbaai Beach",
+          "value": "300 m"
+        },
+        {
+          "label": "Cape Columbine",
+          "value": "3.7 km"
+        }
+      ],
+      "href": "explore.html",
+      "tint": "#4d6a3c"
+    },
+    {
+      "id": "guests",
+      "image": "/media/photos/panel-beach.jpg",
+      "pos": "68% 50%",
+      "alt": "A calm beach at Paternoster with granite rocks in the morning mist",
+      "title": "Our\nGuests",
+      "specs": [
+        {
+          "label": "Booking.com",
+          "value": "9.3 / 10"
+        },
+        {
+          "label": "Reviews",
+          "value": "91"
+        }
+      ],
+      "href": "reviews.html",
+      "tint": "#9a5b34"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Welcome to Bokkoms",
+    "title": "A home on\n*three levels*",
+    "lede": "Alvin, an architect, designed Bokkoms on three levels. Your guest flat is the whole lower level, 15 steps down from the front door — its own lounge, kitchen and two en-suite bedrooms, opening onto a patio with a braai, hammocks and part sea views.",
+    "body": "We live and work upstairs, so we are close by for advice or a hand whenever you need it, and out of the way when you don’t. Bring the dog, too: pets are welcome by prior arrangement."
+  },
+  "stats": [
+    {
+      "value": "9.3",
+      "label": "Guest rating"
+    },
+    {
+      "value": "300 m",
+      "label": "To Bekbaai Beach"
+    },
+    {
+      "value": "2",
+      "label": "En-suite bedrooms"
+    },
+    {
+      "value": "Yes",
+      "label": "Back-up power"
+    }
+  ],
+  "quote": {
+    "text": "Stunning place, stunning location. Beautiful short walk to the beach in a very quiet area. Only the birds and waves to be heard!",
+    "by": "Mj, South Africa"
+  },
+  "duo": [
+    {
+      "image": "/media/photos/hammocks.jpg",
+      "alt": "Two hammocks strung under the pergola on the patio",
+      "caption": "Hammocks under the pergola"
+    },
+    {
+      "image": "/media/photos/patio-view.jpg",
+      "alt": "Cobalt-blue bottles on the whitewashed patio wall, with the village and the sea beyond",
+      "caption": "Blue bottles and a glimpse of the sea"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "eyebrow": "05 — Reviews & Hosts",
+  "title": "Wonderful,\nsay our\n*guests.*",
+  "score": "9.3",
+  "scoreLabel": "Wonderful · 91 reviews on Booking.com",
+  "award": {
+    "score": "4.7 / 5",
+    "text": "LekkeSlaap Certificate of Excellence, 2025"
+  },
+  "categories": [
+    {
+      "label": "Cleanliness",
+      "score": 9.7
+    },
+    {
+      "label": "Staff",
+      "score": 9.6
+    },
+    {
+      "label": "Value for money",
+      "score": 9.6
+    },
+    {
+      "label": "Facilities",
+      "score": 9.5
+    },
+    {
+      "label": "Location",
+      "score": 9.5
+    },
+    {
+      "label": "Comfort",
+      "score": 9.4
+    },
+    {
+      "label": "Free Wi-Fi",
+      "score": 8.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If you need to visit a space where home, rest and heaven-on-earth meet, please book a Stay at Bokkoms! Paternoster is beautiful, but this home is a home where the beauty meets you on the inside. The Roon Family are amazing people, and Amanda is an incredible host. We also loved that animals (of all shapes and sizes) were welcome.",
+      "by": "Anina",
+      "from": "Google review"
+    },
+    {
+      "text": "Amanda is a great host. She has had the property for years, and has it very well equipped. It is extremely spacious, especially for the price. There is a pleasant place to sit outside.",
+      "by": "Colin",
+      "from": "Canada"
+    },
+    {
+      "text": "Stunning place, stunning location. Beautiful short walk to the beach in a very quiet area. Only the birds and waves to be heard! Pet friendly stay was an added bonus.",
+      "by": "Mj",
+      "from": "South Africa"
+    },
+    {
+      "text": "Comfortable and spacious with everything needed to make our stay a stay to remember.",
+      "by": "Fantie",
+      "from": "South Africa"
+    },
+    {
+      "text": "Beautifully decorated, comfortable and very clean. Friendly and welcoming host. Close to the beach. Hangmats.",
+      "by": "Alisha",
+      "from": "Australia"
+    },
+    {
+      "text": "We liked everything! The hosts are very friendly. The beds were comfortable with lovely bedding, also the towels are good quality too. The outside braai area is good too, with a sea view. I will definitely go stay again 100%.",
+      "by": "T&A",
+      "from": "South Africa"
+    },
+    {
+      "text": "Large bedroom & comfortable bed. Nice outside braai area. Located close to new waterfront. Friendly hosts. Homely touches.",
+      "by": "Hilton",
+      "from": "South Africa"
+    },
+    {
+      "text": "Hosts were welcoming and friendly, shared some thoughts and had a mutual conversation. Accommodation catered for our needs and venue cosy.",
+      "by": "Lionel",
+      "from": "South Africa"
+    },
+    {
+      "text": "Everything. It was a beautiful place to call home for two days.",
+      "by": "Leanne",
+      "from": "South Africa"
+    },
+    {
+      "text": "A lovely home, comfortable and cozy and hosts were helpful and friendly.",
+      "by": "Helin",
+      "from": "South Africa"
+    },
+    {
+      "text": "En-suite rooms with individual TVs. Location to the beach.",
+      "by": "Leigh",
+      "from": "South Africa"
+    }
+  ],
+  "hosts": {
+    "eyebrow": "Your hosts",
+    "title": "Meet Alvin\n*& Amanda*",
+    "lede": "Alvin and Amanda live permanently in Paternoster and are passionate about the village and, above all, its natural surroundings.",
+    "body": [
+      "Alvin is an architect: he designed Bokkoms, built on three levels, and runs his practice from here. Amanda is a qualified leadership coach and is training as an accredited Pilates instructor.",
+      "Because we live and work at Bokkoms, we are around for advice or assistance whenever you need it — in Afrikaans, English or Dutch."
+    ],
+    "image": "/media/photos/stairs-art.jpg",
+    "imageAlt": "The staircase at Bokkoms with a painted portrait on the whitewashed wall"
+  },
+  "guestbook": {
+    "image": "/media/photos/guestbook.jpg",
+    "alt": "A handwritten page of the Bokkoms guestbook with a sketch of the Cape Columbine lighthouse",
+    "caption": "From our guestbook — thank-you notes, drawings and the odd paw print."
+  }
+}

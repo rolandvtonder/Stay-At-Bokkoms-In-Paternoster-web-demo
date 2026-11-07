@@ -20,7 +20,10 @@ export function Img({
   eager?: boolean;
   style?: CSSProperties;
 }) {
-  const {w, h} = dims(name);
+  const size = dims(name);
+  // A photo that no longer exists is left out rather than breaking the page.
+  if (!size) return null;
+  const {w, h} = size;
   return (
     <img
       src={media(`${name}.webp`)}

@@ -1,2 +1,5 @@
 node_modules
 dist
+# Made from media/photos/ by scripts/optimize-images.mjs on every build
+public/media
+src/media-manifest.json

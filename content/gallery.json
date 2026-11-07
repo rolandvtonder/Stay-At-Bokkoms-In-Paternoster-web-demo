@@ -1,0 +1,226 @@
+{
+  "eyebrow": "03 — Gallery",
+  "title": "Have a\n*look around.*",
+  "shots": [
+    {
+      "image": "/media/photos/house-white.jpg",
+      "alt": "The white gables of Bokkoms against a blue sky",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/panel-village.jpg",
+      "alt": "The white houses of Paternoster above a rocky bay",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/panel-stay.jpg",
+      "alt": "White thatched cottages above a path through spring daisies",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/panel-beach.jpg",
+      "alt": "A calm beach with granite rocks in the morning mist",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/art-shed.jpg",
+      "alt": "Inside The Art Shed gallery in Paternoster",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/bedroom-1.jpg",
+      "alt": "Bedroom one with a double bed and desk",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/hammocks.jpg",
+      "alt": "Hammocks and a table on the patio under the pergola",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/lounge.jpg",
+      "alt": "The lounge with wicker sofa and colourful paintings",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/rocks.jpg",
+      "alt": "Granite boulders in calm, clear water at the shore",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/bedroom-2.jpg",
+      "alt": "Bedroom two with two single beds",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/firepit.jpg",
+      "alt": "The fire bowl on the stone patio",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/alcove-room.jpg",
+      "alt": "A reading chair by the arched alcove and garden window",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/library.jpg",
+      "alt": "A wall of books beside the staircase",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/house-daisies.jpg",
+      "alt": "Bokkoms above a field of spring daisies",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/kitchen.jpg",
+      "alt": "The guest kitchen and dining table",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/patio-view.jpg",
+      "alt": "Blue bottles on the patio wall with the village beyond",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/windsurfer.jpg",
+      "alt": "A windsurfer jumping a wave off Paternoster",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/stairs-art.jpg",
+      "alt": "Stairs and a portrait painting in the passage",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/pergola.jpg",
+      "alt": "Striped shade from the pergola on the whitewashed patio",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/gulls.jpg",
+      "alt": "Gulls landing on coastal rocks",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/bathroom.jpg",
+      "alt": "An en-suite bathroom with slate tiles",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/patio-table.jpg",
+      "alt": "The outdoor table in the striped shade of the patio",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/hammocks-2.jpg",
+      "alt": "Hammocks in the dappled light of the pergola",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/daisy-path.jpg",
+      "alt": "A path through white spring daisies",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/kitchen-table.jpg",
+      "alt": "The kitchen table and shelves of books",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/picnic-table.jpg",
+      "alt": "A wooden table on the shaded side patio",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/coast.jpg",
+      "alt": "Fynbos running down to the coastline",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/reading-chair.jpg",
+      "alt": "A reading chair below shelves of books",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/entrance.jpg",
+      "alt": "The wooden front door and entrance hall",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/dog-daisies.jpg",
+      "alt": "A black and white dog running through a meadow of daisies",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/passage.jpg",
+      "alt": "The passage with wooden floors and steps",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/aerial.jpg",
+      "alt": "Bokkoms seen from above among the white houses of Paternoster",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/kitchen-shelves.jpg",
+      "alt": "Kitchen shelves with crockery, microwave and kettle",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/gate.jpg",
+      "alt": "The front gate and garage with the Bokkoms sign",
+      "tag": "outside"
+    },
+    {
+      "image": "/media/photos/fynbos-sea.jpg",
+      "alt": "Yellow wild flowers in the fynbos with the sea behind",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/library-stairs.jpg",
+      "alt": "The staircase lined with bookshelves",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/window.jpg",
+      "alt": "Morning light through a window onto the garden",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/dog-flowers.jpg",
+      "alt": "A happy dog among the spring flowers",
+      "tag": "village"
+    },
+    {
+      "image": "/media/photos/embroidery.jpg",
+      "alt": "An embroidered cloth with blue and red flowers",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/stair-down.jpg",
+      "alt": "Steps leading down to the guest flat",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/kitchenette.jpg",
+      "alt": "Kitchen counter with wooden shelves",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/bed-detail.jpg",
+      "alt": "A double bed with patterned linen",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/bathroom-2.jpg",
+      "alt": "A round basin in the second en-suite bathroom",
+      "tag": "inside"
+    },
+    {
+      "image": "/media/photos/guestbook.jpg",
+      "alt": "A page of the Bokkoms guestbook with a drawing of the lighthouse",
+      "tag": "inside"
+    }
+  ]
+}

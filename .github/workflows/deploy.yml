@@ -26,6 +26,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Resize the photos in media/photos/ (including ones uploaded on the editing page).
+      - run: npm run images
       - run: npm run lint
       # The site is served from its own domain (stayatbokkomsinpaternoster.com), so it lives at the root.
       - run: npm run build

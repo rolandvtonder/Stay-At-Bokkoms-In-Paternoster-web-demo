@@ -1,0 +1,318 @@
+# Editing page for the Stay at Bokkoms website (Pages CMS, https://app.pagescms.org).
+# Each "Save" there updates content/*.json or media/photos/, and the website
+# republishes itself about a minute later.
+
+media:
+  - name: photos
+    label: Photos
+    input: media/photos
+    output: /media/photos
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp]
+    rename: safe
+
+content:
+  # ------------------------------------------------------------------ Home
+  - name: home
+    label: Home page
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - name: slides
+            label: Slideshow photos
+            description: The photos that fade into each other at the top of the page.
+            type: object
+            list: {min: 1, max: 6, collapsible: {collapsed: true, summary: "{alt}"}}
+            fields:
+              - {name: image, label: Photo, type: image, options: {media: photos}}
+              - {name: alt, label: Photo description, description: "Describes the photo for Google and for people who can't see it.", type: string}
+          - name: lines
+            label: Big heading
+            description: "One line per row. Put *stars* around a row to show it in italics."
+            type: text
+          - {name: body, label: Text under the heading, type: text}
+      - name: panels
+        label: The three photo panels
+        description: The Stay, The Village and Our Guests.
+        type: object
+        list: {min: 3, max: 3, collapsible: {collapsed: true, summary: "{title}"}}
+        fields:
+          - {name: id, type: string, hidden: true}
+          - {name: href, type: string, hidden: true}
+          - {name: tint, type: string, hidden: true}
+          - {name: pos, type: string, hidden: true}
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - name: title
+            label: Title
+            description: Two rows. The second row is shown in italics.
+            type: text
+          - name: specs
+            label: Facts
+            type: object
+            list: {min: 2, max: 2}
+            fields:
+              - {name: label, label: Label, type: string}
+              - {name: value, label: Value, type: string}
+      - name: intro
+        label: Welcome section
+        type: object
+        fields:
+          - {name: eyebrow, label: Small heading, type: string}
+          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lede, label: First paragraph, type: text}
+          - {name: body, label: Second paragraph, type: text}
+      - name: stats
+        label: The four big numbers
+        type: object
+        list: {min: 4, max: 4, collapsible: {collapsed: true, summary: "{value} {label}"}}
+        fields:
+          - {name: value, label: Number or word, type: string}
+          - {name: label, label: Label, type: string}
+      - name: quote
+        label: Guest quote
+        type: object
+        fields:
+          - {name: text, label: Quote, type: text}
+          - {name: by, label: Guest name, type: string}
+      - name: duo
+        label: The two photos near the bottom
+        type: object
+        list: {min: 2, max: 2, collapsible: {collapsed: true, summary: "{caption}"}}
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: caption, label: Caption, type: string}
+
+  # ------------------------------------------------------------------ The Stay
+  - name: stay
+    label: The Stay page
+    type: file
+    path: content/stay.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: eyebrow, label: Small heading, type: string}
+          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: body, label: Text under the heading, type: text}
+      - name: facts
+        label: Quick facts
+        description: Six works best, so the boxes line up.
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{label}: {value}"}}
+        fields:
+          - {name: label, label: Label, type: string}
+          - {name: value, label: Value, type: string}
+      - name: rooms
+        label: Rooms
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{kicker}"}}
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: kicker, label: Small heading, type: string}
+          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: text, label: Text, type: text}
+      - name: amenities
+        label: Amenities
+        description: Keep the number a multiple of 4 (12, 16, 20) so the grid has no empty boxes.
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{label}"}}
+        fields:
+          - {name: label, label: Text, type: string}
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              values:
+                - {name: wifi, label: Wi-Fi}
+                - {name: car, label: Car / parking}
+                - {name: zap, label: Power}
+                - {name: flame, label: Fire / braai}
+                - {name: utensils, label: Kitchen}
+                - {name: bath, label: Bath}
+                - {name: bed, label: Bed}
+                - {name: tv, label: TV}
+                - {name: laptop, label: Laptop / work}
+                - {name: waves, label: Sea / waves}
+                - {name: leaf, label: Garden / leaf}
+                - {name: paw, label: Pets}
+                - {name: pin, label: Map pin / location}
+                - {name: chat, label: Chat / hosts}
+                - {name: key, label: Key / check-in}
+                - {name: smokeOff, label: No smoking}
+                - {name: bike, label: Bicycle}
+                - {name: sparkle, label: Sparkle}
+                - {name: clock, label: Clock}
+                - {name: star, label: Star}
+                - {name: calendar, label: Calendar}
+                - {name: phone, label: Phone}
+                - {name: mail, label: Email}
+      - name: rules
+        label: House rules
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{label}"}}
+        fields:
+          - {name: label, label: Rule, type: string}
+          - {name: value, label: Details, type: text}
+      - name: notes
+        label: Good to know
+        type: text
+        list: true
+
+  # ------------------------------------------------------------------ Gallery
+  - name: gallery
+    label: Gallery page
+    type: file
+    path: content/gallery.json
+    format: json
+    fields:
+      - {name: eyebrow, label: Small heading, type: string}
+      - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+      - name: shots
+        label: Photos
+        description: Shown in this order. Drag to reorder.
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{alt}"}}
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - name: tag
+            label: Category
+            type: select
+            options:
+              values:
+                - {name: inside, label: Inside}
+                - {name: outside, label: Patio & garden}
+                - {name: village, label: Paternoster}
+
+  # ------------------------------------------------------------------ Paternoster
+  - name: explore
+    label: Paternoster page
+    type: file
+    path: content/explore.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: eyebrow, label: Small heading, type: string}
+          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: body, label: Text under the heading, type: text}
+      - name: intro
+        label: Introduction
+        type: object
+        fields:
+          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lede, label: First paragraph, type: text}
+          - {name: body, label: Second paragraph, type: text}
+      - name: nearby
+        label: What's nearby
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{group}"}}
+        fields:
+          - {name: group, label: Group, type: string}
+          - name: items
+            label: Places
+            type: object
+            list: true
+            fields:
+              - {name: label, label: Place, type: string}
+              - {name: value, label: Distance, type: string}
+      - name: things
+        label: Things to do
+        description: Six works best, so the cards line up.
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{title}"}}
+        fields:
+          - {name: pos, type: string, hidden: true}
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: title, label: Title, type: string}
+          - {name: text, label: Text, type: text}
+      - name: getting
+        label: Getting here
+        type: object
+        fields:
+          - {name: title, label: Heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: text, label: Text, type: text}
+
+  # ------------------------------------------------------------------ Reviews
+  - name: reviews
+    label: Reviews & Hosts page
+    type: file
+    path: content/reviews.json
+    format: json
+    fields:
+      - {name: eyebrow, label: Small heading, type: string}
+      - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+      - {name: score, label: Overall score, type: string}
+      - {name: scoreLabel, label: Text under the score, type: string}
+      - name: award
+        label: Award
+        type: object
+        fields:
+          - {name: score, label: Score, type: string}
+          - {name: text, label: Text, type: string}
+      - name: categories
+        label: Score bars
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{label}: {score}"}}
+        fields:
+          - {name: label, label: Category, type: string}
+          - {name: score, label: Score out of 10, type: number, options: {min: 0, max: 10}}
+      - name: quotes
+        label: Guest reviews
+        type: object
+        list: {collapsible: {collapsed: true, summary: "{by}"}}
+        fields:
+          - {name: text, label: Review, type: text}
+          - {name: by, label: Guest name, type: string}
+          - {name: from, label: Where from, description: "A country, or e.g. Google review", type: string}
+      - name: hosts
+        label: Your hosts
+        type: object
+        fields:
+          - {name: eyebrow, label: Small heading, type: string}
+          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lede, label: First paragraph, type: text}
+          - {name: body, label: More paragraphs, type: text, list: true}
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: imageAlt, label: Photo description, type: string}
+      - name: guestbook
+        label: Guestbook
+        type: object
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: caption, label: Caption, type: string}
+
+  # ------------------------------------------------------------------ Contact
+  - name: contact
+    label: Book & Contact page
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - {name: image, label: Photo, type: image, options: {media: photos}}
+          - {name: alt, label: Photo description, type: string}
+          - {name: eyebrow, label: Small heading, type: string}
+          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: body, label: Text under the heading, type: text}
