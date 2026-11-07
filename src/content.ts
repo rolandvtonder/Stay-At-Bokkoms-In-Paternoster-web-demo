@@ -15,7 +15,7 @@ export const site = {
   phone: '079 746 2868',
   phoneHref: 'tel:+27797462868',
   whatsapp: 'https://wa.me/27797462868',
-  email: 'stayatbokkomsinpaternoster@yahoo.co.za',
+  email: 'stayatbokkomsinpaternoster@yahoo.com',
   address: ['10 Kriedoring Street', 'Bekbaai, Paternoster', 'Western Cape, 7381'],
   maps: 'https://www.google.com/maps/search/?api=1&query=10+Kriedoring+Street+Bekbaai+Paternoster+7381',
   /** Direct booking engine — the main "Book now" everywhere. Opens in a new tab. */
