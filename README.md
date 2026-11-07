@@ -4,7 +4,7 @@ A six-page website for Stay at Bokkoms, a self-catering guest flat in Paternoste
 
 **Pages:** Home · The Stay · Gallery · Paternoster · Reviews & Hosts · Book & Contact
 
-**Live demo:** https://rolandvtonder.github.io/Stay-At-Bokkoms-In-Paternoster-web-demo/ — republished automatically on every push to `main` (see `.github/workflows/deploy.yml`).
+**Live site:** https://stayatbokkomsinpaternoster.com — republished automatically on every push to `main` (see `.github/workflows/deploy.yml`).
 
 ## Run it locally
 

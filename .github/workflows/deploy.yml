@@ -27,10 +27,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
-      # Pages serves the site from /<repo-name>/.
+      # The site is served from its own domain (stayatbokkomsinpaternoster.com), so it lives at the root.
       - run: npm run build
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
+          BASE_PATH: /
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
