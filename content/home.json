@@ -3,29 +3,31 @@
     "slides": [
       {
         "image": "/media/photos/house-white.jpg",
-        "alt": "The whitewashed gables of Bokkoms against a deep blue West Coast sky"
+        "alt": "Alvin Roon designed Bokkoms as a contemporary rendition of historical Village cottages."
       },
       {
         "image": "/media/photos/house-daisies.jpg",
-        "alt": "Bokkoms and neighbouring thatched cottages above a field of spring daisies"
+        "alt": "Enjoy the Winter wonderland during our Winter Flower season. July to September."
       },
       {
         "image": "/media/photos/gulls.jpg",
-        "alt": "Gulls landing on the granite rocks at the edge of the Atlantic"
+        "alt": "This landscape is a 10 minute walk away."
       },
       {
         "image": "/media/photos/daisy-path.jpg",
-        "alt": "A sandy path through white spring daisies towards the sea"
+        "alt": "Paternoster joins the Flower Season visit us on your annual Flower Season tour."
       }
     ],
-    "lines": "Salt air,\n*white walls.*\nSlow days on the\n*West Coast*",
-    "body": "A two-bedroom self-catering guest flat in Paternoster — four minutes on foot to Bekbaai Beach, with a private patio and hosts who live just upstairs."
+    "lines": "Paternoster offers adventures for food, art and nature lovers alike. Come and enjoy Bokkoms hospitality established over more than a decade while you explore our beautiful village.",
+    "body": "A two-bedroom self-catering guest flat in Paternoster with the convenience of on-suite bathrooms equipped kitchen private patio exits and part views on Bekbay beach. We are few minutes on foot to Bekbaai Beach, hosts available on the premises to assist to improve your stay with us."
   },
   "panels": [
     {
       "id": "stay",
-      "image": "/media/photos/panel-stay.jpg",
+      "href": "stay.html",
+      "tint": "#1f4f8f",
       "pos": "58% 50%",
+      "image": "/media/photos/panel-stay.jpg",
       "alt": "White thatched cottages above a path through spring daisies",
       "title": "The\nStay",
       "specs": [
@@ -37,14 +39,14 @@
           "label": "Sleeps",
           "value": "4 guests"
         }
-      ],
-      "href": "stay.html",
-      "tint": "#1f4f8f"
+      ]
     },
     {
       "id": "village",
-      "image": "/media/photos/panel-village.jpg",
+      "href": "explore.html",
+      "tint": "#4d6a3c",
       "pos": "62% 50%",
+      "image": "/media/photos/panel-village.jpg",
       "alt": "The white houses of Paternoster above a rocky bay",
       "title": "The\nVillage",
       "specs": [
@@ -56,14 +58,14 @@
           "label": "Cape Columbine",
           "value": "3.7 km"
         }
-      ],
-      "href": "explore.html",
-      "tint": "#4d6a3c"
+      ]
     },
     {
       "id": "guests",
-      "image": "/media/photos/panel-beach.jpg",
+      "href": "reviews.html",
+      "tint": "#9a5b34",
       "pos": "68% 50%",
+      "image": "/media/photos/panel-beach.jpg",
       "alt": "A calm beach at Paternoster with granite rocks in the morning mist",
       "title": "Our\nGuests",
       "specs": [
@@ -75,16 +77,14 @@
           "label": "Reviews",
           "value": "91"
         }
-      ],
-      "href": "reviews.html",
-      "tint": "#9a5b34"
+      ]
     }
   ],
   "intro": {
     "eyebrow": "Welcome to Bokkoms",
-    "title": "A home on\n*three levels*",
-    "lede": "Alvin, an architect, designed Bokkoms on three levels. Your guest flat is the whole lower level, 15 steps down from the front door — its own lounge, kitchen and two en-suite bedrooms, opening onto a patio with a braai, hammocks and part sea views.",
-    "body": "We live and work upstairs, so we are close by for advice or a hand whenever you need it, and out of the way when you don’t. Bring the dog, too: pets are welcome by prior arrangement."
+    "title": "Enter your home away from home via a flight of stairs into a cosy holiday nesting space.",
+    "lede": "Our guests enjoy a private lounge, kitchen and two en-suite bedrooms, One Queen size bed and 2 Single beds each with its own working space. Bedrooms are spacious with space for all your personal luggage. Fast free wi-fi available.  Each bedroom exits on a private patio and outdoor cooking area. Lounge on a  hammock while you enjoy  part view on the Bekbay beach.",
+    "body": "Your hosts live and work upstairs, so we are close by for advice or a hand whenever you need it, and out of the way when you don’t. Bring the dog, too: pets are welcome by prior arrangement."
   },
   "stats": [
     {
@@ -117,7 +117,7 @@
     {
       "image": "/media/photos/patio-view.jpg",
       "alt": "Cobalt-blue bottles on the whitewashed patio wall, with the village and the sea beyond",
-      "caption": "Blue bottles and a glimpse of the sea"
+      "caption": "Your patio with a glimpse of Bekbay beach"
     }
   ]
 }
