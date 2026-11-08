@@ -39,6 +39,18 @@
         {
           "label": "Wolfgat",
           "value": "600 m"
+        },
+        {
+          "label": "Noisy Oyster",
+          "value": "As you enter the village"
+        },
+        {
+          "label": "Leeto",
+          "value": "2,4 km"
+        },
+        {
+          "label": "1 Kreeftegang",
+          "value": "650 m"
         }
       ]
     },
@@ -58,47 +70,43 @@
           "value": "15 km"
         }
       ]
-    }
+    },
+    {}
   ],
   "things": [
     {
       "image": "/media/photos/coast.jpg",
-      "pos": "",
       "alt": "The coastal path through fynbos above the sea",
       "title": "Walk the coast",
       "text": "Follow the shoreline into Cape Columbine Nature Reserve, with its lighthouse, granite outcrops and hidden coves."
     },
     {
       "image": "/media/photos/gulls.jpg",
-      "pos": "",
       "alt": "Gulls landing on the rocks",
       "title": "Watch the birds",
       "text": "Gulls, cormorants and oystercatchers work the rocks and the tideline. Bring binoculars."
     },
     {
       "image": "/media/photos/windsurfer.jpg",
-      "pos": "",
       "alt": "A windsurfer in the surf off Paternoster",
       "title": "Catch the wind",
       "text": "The steady West Coast wind makes Paternoster a favourite with windsurfers and kiters."
     },
     {
       "image": "/media/photos/daisy-path.jpg",
-      "pos": "",
       "alt": "White spring daisies in flower",
       "title": "Spring flowers",
       "text": "From late winter into spring the veld around the village turns white, orange and gold with wild flowers."
     },
     {
       "image": "/media/photos/rocks.jpg",
-      "pos": "",
       "alt": "Boulders in clear rock-pool water",
       "title": "Rock pools & photographs",
       "text": "Clear water, smooth granite and long golden evenings — a gift for photographers."
     },
     {
-      "image": "/media/photos/art-shed.jpg",
       "pos": "68% 50%",
+      "image": "/media/photos/art-shed.jpg",
       "alt": "Paintings, ceramics and crafts on show inside The Art Shed gallery in Paternoster",
       "title": "The Art Shed",
       "text": "Browse The Art Shed, the Paternoster gallery where Wilko Roon’s work is on show — then wander the white lanes and stop for coffee."
