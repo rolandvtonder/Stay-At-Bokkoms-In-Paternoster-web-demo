@@ -35,10 +35,10 @@
   "rooms": [
     {
       "image": "/media/photos/bedroom-1.jpg",
-      "alt": "Bedroom one: a double bed on wooden floors, with a desk and an arched alcove",
+      "alt": "Bedroom one: a queen bed on wooden floors, with a desk ",
       "kicker": "Bedroom one",
-      "title": "Double bed,\n*own bathroom*",
-      "text": "A full-size double bed made up with good linen, its own en-suite bathroom, an internet TV and a table to work at. Patio doors open straight onto the garden."
+      "title": "Queen bed,\n*own bathroom*",
+      "text": "A queen bed made up with cotton linen, en-suite bathroom, an internet TV and a table to work at. Patio doors open straight onto the garden."
     },
     {
       "image": "/media/photos/bedroom-2.jpg",
