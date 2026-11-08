@@ -33,7 +33,7 @@ content:
               - {name: alt, label: Photo description, description: "Describes the photo for Google and for people who can't see it.", type: string}
           - name: lines
             label: Big heading
-            description: "One line per row. Put *stars* around a row to show it in italics."
+            description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics."
             type: text
           - {name: body, label: Text under the heading, type: text}
       - name: panels
@@ -64,7 +64,7 @@ content:
         type: object
         fields:
           - {name: eyebrow, label: Small heading, type: string}
-          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: lede, label: First paragraph, type: text}
           - {name: body, label: Second paragraph, type: text}
       - name: stats
@@ -103,7 +103,7 @@ content:
           - {name: image, label: Photo, type: image, options: {media: photos}}
           - {name: alt, label: Photo description, type: string}
           - {name: eyebrow, label: Small heading, type: string}
-          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lines, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: body, label: Text under the heading, type: text}
       - name: facts
         label: Quick facts
@@ -121,7 +121,7 @@ content:
           - {name: image, label: Photo, type: image, options: {media: photos}}
           - {name: alt, label: Photo description, type: string}
           - {name: kicker, label: Small heading, type: string}
-          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: text, label: Text, type: text}
       - name: amenities
         label: Amenities
@@ -178,7 +178,7 @@ content:
     format: json
     fields:
       - {name: eyebrow, label: Small heading, type: string}
-      - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+      - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
       - name: shots
         label: Photos
         description: Shown in this order. Drag to reorder.
@@ -210,13 +210,13 @@ content:
           - {name: image, label: Photo, type: image, options: {media: photos}}
           - {name: alt, label: Photo description, type: string}
           - {name: eyebrow, label: Small heading, type: string}
-          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lines, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: body, label: Text under the heading, type: text}
       - name: intro
         label: Introduction
         type: object
         fields:
-          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: lede, label: First paragraph, type: text}
           - {name: body, label: Second paragraph, type: text}
       - name: nearby
@@ -247,7 +247,7 @@ content:
         label: Getting here
         type: object
         fields:
-          - {name: title, label: Heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: title, label: Heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: text, label: Text, type: text}
 
   # ------------------------------------------------------------------ Reviews
@@ -258,7 +258,7 @@ content:
     format: json
     fields:
       - {name: eyebrow, label: Small heading, type: string}
-      - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+      - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
       - {name: score, label: Overall score, type: string}
       - {name: scoreLabel, label: Text under the score, type: string}
       - name: award
@@ -287,7 +287,7 @@ content:
         type: object
         fields:
           - {name: eyebrow, label: Small heading, type: string}
-          - {name: title, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: title, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: lede, label: First paragraph, type: text}
           - {name: body, label: More paragraphs, type: text, list: true}
           - {name: image, label: Photo, type: image, options: {media: photos}}
@@ -314,5 +314,5 @@ content:
           - {name: image, label: Photo, type: image, options: {media: photos}}
           - {name: alt, label: Photo description, type: string}
           - {name: eyebrow, label: Small heading, type: string}
-          - {name: lines, label: Big heading, description: "One line per row. Put *stars* around a row to show it in italics.", type: text}
+          - {name: lines, label: Big heading, description: "Shown very big, so keep it to a few short words (longer text shrinks to fit). One line per row; put *stars* around a row to show it in italics.", type: text}
           - {name: body, label: Text under the heading, type: text}

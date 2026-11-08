@@ -59,9 +59,12 @@ import contactData from '../content/contact.json';
 type Pair = {label: string; value: string};
 type Hero = {image: string; alt: string; eyebrow: string; lines: string; body: string};
 
-/** "/media/photos/House White.jpg" → "house-white" (same rule as scripts/optimize-images.mjs). */
-const photo = (p: string) =>
-  (p.split('/').pop() ?? '').replace(/\.[^.]+$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') as MediaName;
+/**
+ * "/media/photos/House White.jpg" → "house-white" (same rule as scripts/optimize-images.mjs).
+ * A cleared photo becomes "", which the site leaves out instead of breaking.
+ */
+const photo = (p?: string | null) =>
+  (p ?? '').split('/').pop()!.replace(/\.[^.]+$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') as MediaName;
 
 /** "Salt air,\n*white walls.*" → [{t: 'Salt air,'}, {t: 'white walls.', i: true}] */
 const lines = (s: string): Line[] =>
@@ -77,7 +80,7 @@ const hero = (h: Hero) => ({image: photo(h.image), alt: h.alt, eyebrow: h.eyebro
 
 export const home = {
   hero: {
-    slides: homeData.hero.slides.map((s) => ({name: photo(s.image), alt: s.alt})),
+    slides: homeData.hero.slides.filter((s) => s.image).map((s) => ({name: photo(s.image), alt: s.alt})),
     lines: lines(homeData.hero.lines),
     body: homeData.hero.body,
   },
@@ -129,7 +132,7 @@ export const gallery = {
     {id: 'outside', label: 'Patio & garden'},
     {id: 'village', label: 'Paternoster'},
   ] as const,
-  shots: galleryData.shots.map((s) => ({name: photo(s.image), alt: s.alt, tag: s.tag})) as Shot[],
+  shots: galleryData.shots.filter((s) => s.image).map((s) => ({name: photo(s.image), alt: s.alt, tag: s.tag})) as Shot[],
 };
 
 /* --------------------------------------------------------------- Explore */
