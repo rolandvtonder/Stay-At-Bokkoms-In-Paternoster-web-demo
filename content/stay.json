@@ -13,7 +13,7 @@
     },
     {
       "label": "Bedrooms",
-      "value": "1 double, 1 twin"
+      "value": "1 queen, 1 twin"
     },
     {
       "label": "Bathrooms",
@@ -64,68 +64,68 @@
   ],
   "amenities": [
     {
-      "icon": "wifi",
-      "label": "Free Wi-Fi"
+      "label": "Free Wi-Fi",
+      "icon": "wifi"
     },
     {
-      "icon": "car",
-      "label": "Free private parking"
+      "label": "Free private parking",
+      "icon": "car"
     },
     {
-      "icon": "zap",
-      "label": "Back-up power"
+      "label": "Back-up power",
+      "icon": "zap"
     },
     {
-      "icon": "flame",
-      "label": "Braai & fire bowl"
+      "label": "Braai & fire bowl",
+      "icon": "flame"
     },
     {
-      "icon": "utensils",
-      "label": "Equipped kitchen"
+      "label": "Equipped kitchen",
+      "icon": "utensils"
     },
     {
-      "icon": "bath",
-      "label": "Two en-suite bathrooms"
+      "label": "Two en-suite bathrooms",
+      "icon": "bath"
     },
     {
-      "icon": "bed",
-      "label": "Linen & towels"
+      "label": "Linen & towels",
+      "icon": "bed"
     },
     {
-      "icon": "tv",
-      "label": "Internet TV in each room"
+      "label": "Internet TV in each room",
+      "icon": "tv"
     },
     {
-      "icon": "laptop",
-      "label": "Work tables"
+      "label": "Work tables",
+      "icon": "laptop"
     },
     {
-      "icon": "waves",
-      "label": "Part sea views"
+      "label": "Part sea views",
+      "icon": "waves"
     },
     {
-      "icon": "leaf",
-      "label": "Garden & patio"
+      "label": "Garden & patio",
+      "icon": "leaf"
     },
     {
-      "icon": "paw",
-      "label": "Pets on request"
+      "label": "Pets on request",
+      "icon": "paw"
     },
     {
-      "icon": "pin",
-      "label": "Bekbaai Beach 300 m away"
+      "label": "Bekbaai Beach 300 m away",
+      "icon": "pin"
     },
     {
-      "icon": "chat",
-      "label": "Hosts live upstairs"
+      "label": "Hosts live upstairs",
+      "icon": "chat"
     },
     {
-      "icon": "key",
-      "label": "Private check-in"
+      "label": "Private check-in",
+      "icon": "key"
     },
     {
-      "icon": "smokeOff",
-      "label": "Non-smoking"
+      "label": "Non-smoking",
+      "icon": "smokeOff"
     }
   ],
   "rules": [
