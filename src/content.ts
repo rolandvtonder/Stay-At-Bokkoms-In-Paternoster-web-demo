@@ -67,13 +67,15 @@ const photo = (p?: string | null) =>
   (p ?? '').split('/').pop()!.replace(/\.[^.]+$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') as MediaName;
 
 /** "Salt air,\n*white walls.*" → [{t: 'Salt air,'}, {t: 'white walls.', i: true}] */
-const lines = (s: string): Line[] =>
-  s.split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
+const lines = (s?: string | null): Line[] =>
+  (s ?? '').split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
     const m = /^\*(.+)\*$/.exec(l);
     return m ? {t: m[1].trim(), i: true} : {t: l};
   });
 
-const pairs = (ps: Pair[]) => ps.map((p) => [p.label, p.value] as [string, string]);
+/** Label/value rows; a row (or a whole list) left empty on the editing page is skipped. */
+const pairs = (ps?: Partial<Pair>[] | null) =>
+  (ps ?? []).filter((p) => p.label || p.value).map((p) => [p.label ?? '', p.value ?? ''] as [string, string]);
 const hero = (h: Hero) => ({image: photo(h.image), alt: h.alt, eyebrow: h.eyebrow, lines: lines(h.lines), body: h.body});
 
 /* ------------------------------------------------------------------ Home */
@@ -140,7 +142,7 @@ export const gallery = {
 export const explore = {
   hero: hero(exploreData.hero),
   intro: {...exploreData.intro, title: lines(exploreData.intro.title)},
-  nearby: exploreData.nearby.map((g) => ({group: g.group, items: pairs(g.items)})),
+  nearby: exploreData.nearby.map((g) => ({group: g.group ?? '', items: pairs(g.items)})).filter((g) => g.items.length),
   things: exploreData.things.map((t) => ({name: photo(t.image), pos: t.pos || undefined, alt: t.alt, title: t.title, text: t.text})),
   getting: {title: lines(exploreData.getting.title), text: exploreData.getting.text},
 };
